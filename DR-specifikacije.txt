@@ -1,0 +1,26 @@
+HR Naslov: Čitanje registarskih oznaka korištnjeme računalnog vida
+EN Naslov: License plate reading using computer vision
+
+Tema:
+
+Čitanje registarskih oznaka je problem koji uključuje nekoliko koraka od ulaza
+u sustav što bi bio slika, do izlaza što bi bio tekst, odnosno registarska oznaka
+zapisana na tablici automobila. Problem započinje s prepoznavanjem vozila,
+potom izoliranja registarskih oznaka, prepoznavanja koji je uzorak (iz koje
+države dolaze tablice) te na kraju isčitavanje teksta sa tablica.
+Najveći problem kod ovog pristupa bi bio činjenica da su vozila
+najčešće u pokretu pri snimanju te treba uzeti u obzir smetnje koje nastaju
+na slikama pri tome i pobrinuti se da ne ometaju rad sustava.
+
+
+U okviru ovog diplomskog rada potrebno je napraviti prototipni programski
+sustav koji se spaja na kameru koja konstantno snima nadolazeći promet ili
+prima slike koje su snimljene prije te ispisiva rezultat na ekran ili drugi izlaz.
+Potrebno je osigurati skup podataka koji sadrži kvalitetne slike da bi model
+prepoznao vozila, izolirao tablice te prepoznao što piše na njima. Također je
+potrebno osigurati da ne dolaze do prevelikog kašnjenja pri čitanju s kamere
+(u slučaju da bi se model spojio s kamerom).
+
+Radu je potrebno priložiti algoritme, izvorne kodove i rezultate uz
+potrebna objašnjenja i dokumentaciju. Citirati korištenu literaturu i
+navesti dobivenu pomoć.
